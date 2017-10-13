@@ -1,0 +1,118 @@
+@font-face {
+  font-family: 'logofont';
+  src: url("fonts/analogue86blackoblique.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: 'bodytext';
+  src: url("fonts/analogue55regular.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: 'menutext';
+  src: url("fonts/analogue65medium.ttf") format('truetype');
+}
+
+body {
+  font-family: 'bodytext';
+  margin: 0;
+  position: relative;
+}
+
+body p {
+  font-size: .9rem;
+}
+
+section {
+  display: flex;
+}
+
+
+.main-logo {
+  font-family: 'logofont';
+}
+
+/*main navigation bar*/
+.header {
+  position: relative;
+  width: 100%;
+}
+
+.main-logo {
+  margin: 0;
+  padding: 0;
+}
+
+#menu-mobile {
+  text-decoration: none;
+}
+
+#main-nav-bar {
+  background-color: white;
+  position: absolute;
+  width: 100%;
+}
+
+#main-nav-bar ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+#main-nav-bar ul li {
+  margin: 1em;
+}
+
+#search-img {
+  width: 1.3rem;
+}
+
+/*main-navigation-bar links*/
+#main-nav-bar-links {
+  background-color: white;
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  align-self: flex-end;
+  top: 2rem;
+  margin-top: 1em;
+  padding-left: 1em;
+  padding-right: 2em;
+  padding-bottom: 1em;
+  width: 30%;
+}
+
+#main-nav-bar-links a {
+  font-family: 'menutext';
+  color: black;
+  text-decoration: none;
+  padding: .6rem .3rem .5rem .3rem;
+  border-radius: 10px;
+}
+
+#main-nav-bar-links a:hover, #main-nav-bar-links a:focus {
+  background-color: #FDEEB7;
+}
+
+.resposnive {
+  display: flex;
+}
+
+/*about content*/
+.about {
+  background-color: #FDEEB7;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 3rem 0 3rem;
+}
+
+#about-header {
+  margin-bottom: 4rem;
+}
+
+/*responsive menu*/
