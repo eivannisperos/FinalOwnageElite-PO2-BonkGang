@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>rewind | checkout</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <script type="text/javascript" src="js/script.js"></script>
+  </head>
+
+  <body>
+    <section class="header">
+      <nav id="main-nav-bar">
+        <ul>
+          <li>
+            <a href="#" id="menu-mobile" class="hamburger-menu">&#9776;</a>
+          </li>
+          <li>
+            <a href="index.html"><h1 class="main-logo">REWIND</h1></a>
+          </li>
+          <li>
+            <a href="productlist.html"><img id="search-img" src="img/search.svg" /></a>
+          </li>
+        </ul>
+      </nav>
+      <nav id="main-nav-bar-links">
+        <a href="productlist.html" class="mobile-link">PRODUCTS</a>
+        <a href="about.html" class="mobile-link">ABOUT</a>
+        <a href="cart.html" class="mobile-link">MY CART</a>
+        <a href="signin.html" class="mobile-link">SIGN IN</a>
+      </nav>
+    </section>
+
+    <section id="register">
+      <h1>CHECKOUT</h1>
+      <form id="register-form" action="signin.html" method="GET">
+        <input type="text" id="credit-card" name="credit" placeholder="CREDIT CARD NUM" required/>
+        <input type="text" id="cardholder" name="cardholder" placeholder="FULL NAME" required/>
+        <input type="text" id="expiry" name="expiry" placeholder="EXPIRY DATE" required/>
+        <input type="text" id="shipping" name="shipping" placeholder="SHIPPING ADDRESS" required />
+        <input type="text" id="shipping" name="shipping" placeholder="POSTAL CODE" required />
+        <button type="button">CONFIRM</button>
+      </form>
+    </section>
+  </body>
+</html>
