@@ -19,6 +19,11 @@ body {
   position: relative;
 }
 
+p {
+  margin: auto;
+  max-width: 85%;
+}
+
 body p {
   font-size: .9rem;
 }
@@ -97,7 +102,7 @@ section {
   background-color: #FDEEB7;
 }
 
-.resposnive {
+.responsive {
   display: flex;
 }
 
