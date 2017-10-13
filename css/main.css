@@ -241,6 +241,15 @@ img {
   padding: 0 2rem 0 2rem;
 }
 
+.productdesc {
+  flex-direction: column;
+  background-color: #FDEEB7;
+  justify-content: center;
+  align-items: center;
+  padding: 0 2rem 0 2rem;
+  height: 100vh;
+}
+
 #productlist-content {
   display: flex;
   flex-wrap: wrap;
