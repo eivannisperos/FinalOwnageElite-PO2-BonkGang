@@ -19,7 +19,7 @@
             <a href="index.html"><h1 class="main-logo">REWIND</h1></a>
           </li>
           <li>
-            <a href="#"><img id="search-img" src="img/search.svg" /></a>
+            <a href="productlist.html"><img id="search-img" src="img/search.svg" /></a>
           </li>
         </ul>
       </nav>
@@ -29,6 +29,17 @@
         <a href="cart.html" class="mobile-link">MY CART</a>
         <a href="signin.html" class="mobile-link">SIGN IN</a>
       </nav>
+    </section>
+
+    <section id="sign-in">
+      <h1>SIGN IN</h1>
+      <form id="sign-in-form" action="signin.html" method="GET">
+        <input type="text" id="username" name="user-name" placeholder="username" required/>
+        <input type="password" id="password" name="pass-word" placeholder="&#9679;&#9679;&#9679;&#9679;&#9679;" required/>
+        <a href="#" id="password-reset-btn">Forgot Password?</a>
+        <input type="submit" value="SIGN IN"/>
+        <button onclick="window.location='register.html'">SIGN UP</button>
+      </form>
     </section>
   </body>
 </html>

@@ -12,6 +12,10 @@
   font-family: 'menutext';
   src: url("fonts/analogue65medium.ttf") format('truetype');
 }
+@font-face {
+  font-family: 'italic';
+  src: url("fonts/analogue46lightoblique.ttf") format('truetype');
+}
 
 body {
   font-family: 'bodytext';
@@ -41,8 +45,49 @@ body p {
 
 section {
   display: flex;
+  background-color: #FDEEB7;
 }
 
+form {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+
+input {
+  width: 80%;
+  margin: 0.5rem;
+  height: 2rem;
+
+  text-align: center;
+  border: solid 2.5px;
+  border-radius: 5px;
+  border-color: rgb(100, 128, 140);
+  font-size: 1rem;
+}
+
+input[type=submit] {
+  width: 50%;
+  height: 2rem;
+  margin: 0.5rem;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(100, 128, 140);
+  box-shadow: 0 0 5px 1px black;
+}
+
+button {
+  width: 50%;
+  height: 2rem;
+  margin: 0.5rem;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(100, 128, 140);
+  box-shadow: 0 0 5px 1px black;
+  text-align: center;
+}
 
 .main-logo {
   font-family: 'logofont';
@@ -131,4 +176,30 @@ section {
   margin-bottom: 4rem;
 }
 
-/*product list*/
+/*sign-in list*/
+#sign-in {
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+#sign-in-form {
+  align-items: center;
+}
+
+#password-reset-btn {
+  color: rgb(100, 128, 140);
+  font-family: 'italic';
+  margin: 1rem 0 1rem 0;
+}
+
+/*register*/
+#register {
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
