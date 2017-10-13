@@ -87,7 +87,6 @@ input[type=submit] {
   box-shadow: 0 0 5px 1px black;
 }
 
-<<<<<<< HEAD
 button {
   width: 50%;
   height: 2rem;
@@ -98,10 +97,10 @@ button {
   background-color: rgb(100, 128, 140);
   box-shadow: 0 0 5px 1px black;
   text-align: center;
-=======
+}
+
 .header-space {
   margin-bottom: 4rem;
->>>>>>> master
 }
 
 .main-logo {
@@ -197,7 +196,6 @@ button {
   padding: 0 3rem 0 3rem;
 }
 
-<<<<<<< HEAD
 /*sign-in list*/
 #sign-in {
   flex-direction: column;
@@ -225,7 +223,7 @@ button {
   justify-content: center;
   align-items: center;
 }
-=======
+
 .product-image {
   width: 17vh;
   height: auto;
@@ -243,4 +241,3 @@ button {
   font-weight: lighter;
   font-size: .85rem;
 }
->>>>>>> master
