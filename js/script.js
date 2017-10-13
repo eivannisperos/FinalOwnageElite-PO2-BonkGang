@@ -1,14 +1,19 @@
-mobileMenuAppear = function() {
-  if (nav.className === "hamburger-menu") {
-    nav.className += "responsive";
-  } else {
-    nav.className = "hamburger-menu";
-  }
-}
-
 window.onload = function() {
-  var hamburgerMenu = document.getElementById("menu-mobile");
-  hamburgerMenu.onclick = function() {
-    if (hamburgerMenu.className)
+  var mobileLinks = document.getElementById('main-nav-bar-links');
+  var mobileIcon = document.getElementById('menu-mobile');
+  var mobileLinksA = document.getElementsByClassName('mobile-link')
+
+  function mobileMenuCloseOpen(e) {
+    if (e.target != mobileLinks ) {
+      mobileLinks.style.display = 'none';
+    }
+
+    if (e.target == mobileIcon) {
+      mobileLinks.style.display = 'flex';
+    }
+  }
+
+  window.onclick = function(event) {
+    mobileMenuCloseOpen(event);
   }
 }
