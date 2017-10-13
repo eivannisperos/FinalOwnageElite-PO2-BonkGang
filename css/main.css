@@ -28,6 +28,13 @@ p {
   max-width: 85%;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+  margin: 0;
+  padding: 0;
+}
+
 body p {
   font-size: .9rem;
 }
@@ -124,4 +131,4 @@ section {
   margin-bottom: 4rem;
 }
 
-/*responsive menu*/
+/*product list*/
