@@ -19,6 +19,10 @@ body {
   position: relative;
 }
 
+h1, h2, h3, p {
+  color: #64808C;
+}
+
 p {
   margin: auto;
   max-width: 85%;
