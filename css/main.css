@@ -161,3 +161,9 @@ section {
   justify-content: center;
   align-items: center;
 }
+
+.prod-desc {
+  font-style: italic;
+  font-weight: lighter;
+  font-size: .85rem;
+}
