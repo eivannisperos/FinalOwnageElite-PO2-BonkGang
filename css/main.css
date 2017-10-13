@@ -27,6 +27,16 @@ h1, h2, h3, p {
   color: #64808C;
 }
 
+h2 {
+  font-size: .9rem;
+}
+
+h3 {
+  font-weight: lighter;
+  font-style: italic;
+  font-size: .85rem;
+}
+
 p {
   margin: auto;
   max-width: 85%;
@@ -77,6 +87,7 @@ input[type=submit] {
   box-shadow: 0 0 5px 1px black;
 }
 
+<<<<<<< HEAD
 button {
   width: 50%;
   height: 2rem;
@@ -87,6 +98,10 @@ button {
   background-color: rgb(100, 128, 140);
   box-shadow: 0 0 5px 1px black;
   text-align: center;
+=======
+.header-space {
+  margin-bottom: 4rem;
+>>>>>>> master
 }
 
 .main-logo {
@@ -172,10 +187,17 @@ button {
   padding: 0 3rem 0 3rem;
 }
 
-#about-header {
-  margin-bottom: 4rem;
+/*product list*/
+.productlist {
+  background-color: #FDEEB7;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 3rem 0 3rem;
 }
 
+<<<<<<< HEAD
 /*sign-in list*/
 #sign-in {
   flex-direction: column;
@@ -203,3 +225,22 @@ button {
   justify-content: center;
   align-items: center;
 }
+=======
+.product-image {
+  width: 17vh;
+  height: auto;
+}
+
+.product-holder {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.prod-desc {
+  font-style: italic;
+  font-weight: lighter;
+  font-size: .85rem;
+}
+>>>>>>> master
